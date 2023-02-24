@@ -1,0 +1,1 @@
+Landing page - Foundations course The Odin Project
