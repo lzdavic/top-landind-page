@@ -59,3 +59,45 @@ nav a {
     font-weight: 900;
     font-size: 24px;
 }
+
+.banner {
+    padding: 64px 320px;
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    gap: 32px;
+}
+
+.banner>img {
+    width: 50%;
+}
+
+.banner > .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.banner>.content h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.banner>.content p {
+    font-size: 24px;
+}
+
+.banner>.content button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    font-size: 24px;
+    background-color: var(--orange);
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
