@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@100;400;700;900&display=swap');
 
 :root {
     --vibrant-orange: #FD6823;
@@ -139,4 +139,21 @@ button:hover {
 .card > p {
     font-size: 24px;
     font-weight: 700;
+}
+
+.quotation {
+    padding: 160px 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--orange);
+}
+
+.quotation > i {
+    font-size: 40px;
+    text-align: justify;
+}
+
+.quotation > p {
+    font-size: 24px;
+    text-align: right;
 }
